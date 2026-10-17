@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080912">
+    <title>NEO3D | اطلب موقعك الإلكتروني</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <a class="logo" href="#">NEO<span>3D</span></a>
+        <a class="nav-link" href="#request">اطلب موقعك ↗</a>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="glow glow-one"></div>
+            <div class="glow glow-two"></div>
+
+            <div class="hero-content">
+                <span class="eyebrow">✦ DIGITAL STUDIO</span>
+
+                <h1>
+                    فكرتك تستاهل<br>
+                    <span class="gradient">موقع استثنائي.</span>
+                </h1>
+
+                <p>
+                    عندك مشروع وحاب تحوّل فكرتك إلى موقع إلكتروني؟ ابعث لنا تفاصيل مشروعك والميزانية تاعك، ونشوفوا كيفاش نحققوا الفكرة تاعك.
+                </p>
+
+                <a class="primary-btn" href="#request">
+          ابدأ مشروعك الآن <span>↙</span>
+        </a>
+
+                <div class="features">
+                    <div><strong>3D</strong><small>تصميم عصري</small></div>
+                    <div><strong>WEB</strong><small>مواقع احترافية</small></div>
+                    <div><strong>24/7</strong><small>استقبال الطلبات</small></div>
+                </div>
+            </div>
+
+            <div class="scene" aria-label="تصميم ثلاثي الأبعاد">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="cube">
+                    <div class="face front">NEO<span>3D</span></div>
+                    <div class="face back">CREATE</div>
+                    <div class="face right">DESIGN</div>
+                    <div class="face left">FUTURE</div>
+                    <div class="face top">✦</div>
+                    <div class="face bottom">WEB</div>
+                </div>
+
+                <div class="floating-card">✦ Creative Web Design</div>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="section-heading">
+                <span class="eyebrow">WHAT WE CREATE</span>
+                <h2>شنو هو <span class="gradient">مشروعك؟</span></h2>
+            </div>
+
+            <div class="service-grid">
+                <article class="service-card">
+                    <div class="service-icon">◈</div>
+                    <h3>متجر إلكتروني</h3>
+                    <p>اعرض منتجاتك وخلي زبائنك يتواصلوا معاك بسهولة.</p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">⌘</div>
+                    <h3>موقع شركة</h3>
+                    <p>عرّف بخدماتك ونشاطك بصورة احترافية.</p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">✧</div>
+                    <h3>موقع مخصص</h3>
+                    <p>موقع حسب فكرتك والميزات اللي تحتاجها.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="request-section" id="request">
+            <div class="section-heading">
+                <span class="eyebrow">LET'S BUILD SOMETHING</span>
+                <h2>اطلب <span class="gradient">موقعك الآن</span></h2>
+                <p>عمّر المعلومات التالية بدقة باش نفهموا احتياجات مشروعك.</p>
+            </div>
+
+            <form id="projectForm">
+                <div class="form-grid">
+
+                    <div class="field">
+                        <label for="name">الاسم الكامل *</label>
+                        <input id="name" name="name" type="text" placeholder="اكتب اسمك الكامل" required maxlength="100">
+                    </div>
+
+                    <div class="field">
+                        <label for="email">البريد الإلكتروني Gmail *</label>
+                        <input id="email" name="email" type="email" placeholder="example@gmail.com" required maxlength="150">
+                    </div>
+
+                    <div class="field">
+                        <label for="phone">رقم هاتفك *</label>
+                        <input id="phone" name="phone" type="tel" placeholder="05XXXXXXXX" required maxlength="25">
+                    </div>
+
+                    <div class="field">
+                        <label for="website">اسم الموقع اللي حاب تديرو *</label>
+                        <input id="website" name="website" type="text" placeholder="مثال: MyBusiness" required maxlength="120">
+                    </div>
+
+                    <div class="field full">
+                        <label for="type">نوع الموقع *</label>
+                        <select id="type" name="type" required>
+              <option value="">اختار نوع الموقع</option>
+              <option>متجر إلكتروني</option>
+              <option>موقع شركة</option>
+              <option>موقع خدمات</option>
+              <option>موقع شخصي Portfolio</option>
+              <option>موقع مطعم أو مقهى</option>
+              <option>موقع تعليمي</option>
+              <option>موقع آخر</option>
+            </select>
+                    </div>
+
+                    <div class="field full">
+                        <label for="description">وصف المشروع بالتفصيل *</label>
+                        <textarea id="description" name="description" placeholder="اشرح فكرتك، الصفحات اللي تحتاجها، الألوان، الميزات وأي تفاصيل أخرى..." rows="6" required maxlength="3000"></textarea>
+                    </div>
+
+                    <div class="field full">
+                        <label for="budget">الميزانية المخصصة للمشروع *</label>
+                        <select id="budget" name="budget" required>
+              <option value="">اختار ميزانيتك بالدينار الجزائري</option>
+              <option>أقل من 10,000 دج</option>
+              <option>من 10,000 إلى 25,000 دج</option>
+              <option>من 25,000 إلى 50,000 دج</option>
+              <option>من 50,000 إلى 100,000 دج</option>
+              <option>أكثر من 100,000 دج</option>
+              <option>نحتاج عرض سعر أولاً</option>
+            </select>
+                    </div>
+
+                </div>
+
+                <button type="submit" class="submit-btn">
+          <span>إرسال الطلب عبر واتساب</span>
+          <span class="send-icon">↗</span>
+        </button>
+
+                <p class="privacy">
+                    بالضغط على الإرسال، تفتح واتساب لمراجعة الرسالة وإرسالها.
+                </p>
+
+                <p id="formMessage" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <a class="logo" href="#">NEO<span>3D</span></a>
+        <p>نحوّل أفكارك إلى تجارب رقمية مميزة.</p>
+        <small>© 2026 NEO3D — جميع الحقوق محفوظة</small>
+    </footer>
+
+</body>
+
+</html>
